@@ -26,6 +26,8 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
+    compile 'org.json:json:20160212'
+    compile 'io.vertx:vertx-core:3.2.1'
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('com.jayway.jsonpath:json-path')
 }
